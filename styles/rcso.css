@@ -1,0 +1,28 @@
+body {
+  overflow-x: hidden;
+}
+
+.page-header {
+  background-color: #000;
+}
+
+.rcso-main {
+  background-color: #f8f8f8;
+}
+
+.rcso-page-cover {
+  background: url(../images/rcso-images/rcso-cover.jpg) center/cover no-repeat;
+  min-height: 80vh;
+}
+
+.rcso-page-description {
+  text-align: justify;
+}
+
+.button-wrapper {
+  margin-top: 40px;
+}
+
+.rcso-button {
+  padding-inline: 15px;
+}

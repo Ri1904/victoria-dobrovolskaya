@@ -1,0 +1,165 @@
+:root {
+  --color-sandy: #81786e;
+  --color-light: #ccbfaf;
+  --color-dark: #3a3734;
+  --background-section-color-light: #f0f0ee;
+  --color-link-active: #e1b617;
+}
+
+.page-header {
+  background-color: #000;
+}
+
+.main {
+  background-color: var(--background-section-color-light);
+}
+
+.bio-page-cover {
+  color: #fff;
+  background: url(../images/bio-images/bio-cover.jpg) center/cover no-repeat;
+  min-height: 80vh;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.bio-page-cover-title {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 48px;
+  letter-spacing: 0.08em;
+  padding-inline: 50px;
+}
+
+.bio-page-cover-description {
+  font-size: 28px;
+  padding-bottom: 25px;
+  letter-spacing: 0.07em;
+  padding-inline: 50px;
+}
+
+.page-content {
+  padding: 30px 145px 80px;
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.birthday {
+  font-size: 19px;
+}
+
+.bio-page-content-subtitle {
+  font-size: 25px;
+}
+
+.bio-page-content-list {
+  padding-inline: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.bio-page-content-list-item {
+  text-align: justify;
+}
+
+.span-bold {
+  font-weight: 700;
+}
+
+.download-button-wrapper {
+  margin-top: 50px;
+  display: inline-flex;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.download-button {
+  padding-inline: 20px;
+}
+
+@media (max-width: 1355px) {
+  .bio-page-cover-title {
+    font-size: 40px;
+  }
+
+  .bio-page-cover-description {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1181px) {
+  .page-content {
+    padding-inline: 80px;
+  }
+
+  .bio-page-cover-title {
+    font-size: 35px;
+    padding-inline: 30px;
+  }
+
+  .bio-page-cover-description {
+    font-size: 20px;
+    padding-inline: 30px;
+  }
+}
+
+@media (max-width: 955px) {
+  .bio-page-cover-title {
+    font-size: 28px;
+  }
+
+  .bio-page-cover-description {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 789px) {
+  .page-content {
+    padding-inline: 40px;
+  }
+
+  .bio-page-cover-title {
+    font-size: 23px;
+    padding-inline: 20px;
+  }
+
+  .bio-page-cover-description {
+    font-size: 14px;
+    padding-inline: 20px;
+  }
+}
+
+@media (max-width: 658px) {
+  .bio-page-cover-title {
+    font-size: 20px;
+    padding-inline: 20px;
+  }
+
+  .bio-page-cover-description {
+    font-size: 13px;
+    padding-inline: 10px;
+  }
+}
+
+@media (max-width: 598px) {
+  .bio-page-cover-title {
+    font-size: 18px;
+    padding-inline: 20px;
+  }
+
+  .bio-page-cover-description {
+    font-size: 12px;
+    padding-inline: 20px;
+  }
+}
+
+@media (max-width: 555px) {
+  .page-content {
+    padding-inline: 20px;
+    font-size: 14px;
+  }
+}
