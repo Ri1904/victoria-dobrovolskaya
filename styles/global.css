@@ -17,6 +17,7 @@ body {
   scroll-behavior: smooth;
   overflow-x: hidden;
   width: 100%;
+  background-color: var(--background-section-color-light);
 }
 
 h1,

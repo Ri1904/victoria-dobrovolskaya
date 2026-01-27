@@ -250,8 +250,7 @@
 .bio {
   position: relative;
   max-width: 100%;
-  padding: 140px 50px 100px 170px;
-  background-color: var(--background-section-color-light);
+  padding: 90px 50px 100px 170px;
 }
 
 .bio-logo {
@@ -280,6 +279,22 @@
   width: 39px;
   background: url(../icons/before-element.svg) center/contain no-repeat;
   aspect-ratio: 1;
+}
+
+.section-line {
+  padding-block: 3px;
+  margin-top: 90px;
+  font-family: 'Book Antiqua', sans-serif;
+  font-size: 13px;
+  background-color: rgba(230, 227, 227, 0.7);
+}
+
+.section-line-text {
+  padding-left: 70px;
+}
+
+.bio-line-text {
+  padding-left: 170px;
 }
 
 .bio-content {
@@ -317,8 +332,11 @@
 
 .press {
   max-width: 100%;
-  padding: 90px 70px;
-  background-color: var(--background-section-color-light);
+  padding: 30px 70px;
+}
+
+.press-line {
+  background-color: transparent;
 }
 
 .press-card-list {
@@ -414,8 +432,7 @@
 
 .media {
   max-width: 100%;
-  padding: 70px;
-  background-color: var(--background-section-color-light);
+  padding: 30px 70px 70px 70px;
 }
 
 .media-video-cover {
@@ -704,6 +721,11 @@
 
   .bio {
     padding-inline: 70px;
+    padding-top: 30px;
+  }
+
+  .bio-line-text {
+    padding-left: 70px;
   }
 
   .bio-content {
@@ -918,6 +940,10 @@
 
   .bio {
     padding-inline: 70px;
+  }
+  
+  .bio-line-text {
+    padding-left: 70px;
   }
 
   .bio-content {
