@@ -1190,11 +1190,11 @@
 
   .cover-title {
     letter-spacing: 0.1em;
-    font-size: 26px;
+    font-size: 25px;
   }
 
   .cover-title::before {
-    font-size: 30px;
+    font-size: 29px;
   }
 
   .about-top-line-title {
@@ -1232,11 +1232,11 @@
   }
 
   .cover-title {
-    font-size: 24px;
+    font-size: 23px;
   }
 
   .cover-title::before {
-    font-size: 25px;
+    font-size: 24px;
     top: -12px;
     left: -26px;
     opacity: 35%;
@@ -1301,11 +1301,11 @@
   }
 
   .cover-title {
-    font-size: 22px;
+    font-size: 21px;
   }
 
   .cover-title::before {
-    font-size: 26px;
+    font-size: 23px;
   }
 
   .about {
@@ -1321,7 +1321,7 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 454px) {
   .cover-title-wrapper {
     left: 30px;
   }
@@ -1344,7 +1344,7 @@
   }
 
   .bio {
-    padding-left: 40px;
+    padding-left: 20px;
     padding-top: 20px;
   }
 
@@ -1354,30 +1354,6 @@
 
   .press-card {
     min-height: 370px;
-  }
-
-  .media-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(16, max-width 250px);
-    grid-template-areas: 
-    "thirteen"
-    "seven"
-    "eleven"
-    "five"
-    "three"
-    "fourteen"
-    "six"
-    "eight"
-    "fifteen"
-    "nine"
-    "sixteen"
-    "one"
-    "four"
-    "twelve"
-    "two"
-    "ten";
-    gap: 10px;
   }
 
   .media-video-cover-title {

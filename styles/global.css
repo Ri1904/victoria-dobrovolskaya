@@ -5,12 +5,18 @@
   scroll-behavior: smooth;
 }
 
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 body {
   margin: 0 auto;
   font-family: 'Wix Madefor Display', sans-serif;
   position: relative;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  width: 100%;
 }
 
 h1,

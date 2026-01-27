@@ -1,3 +1,5 @@
+
+
 :root {
   --color-sandy: #81786e;
   --color-light: #ccbfaf;
@@ -8,9 +10,13 @@
 
 .page-header {
   background-color: #000;
+  position: relative;
+  z-index: 3;
+  max-width: 100%;
 }
 
 .main {
+  max-width: 100%;
   background-color: var(--background-section-color-light);
 }
 
