@@ -167,6 +167,7 @@
 
 .logo-big {
   height: 100%;
+  max-width: 138px;
 }
 
 .about-top-line {
