@@ -1034,6 +1034,7 @@
 
   .about-button {
     padding-inline: 15px;
+    align-self: start;
   }
 
   .return-to-main-page-link {
@@ -1204,8 +1205,17 @@
   }
 
   .press,
-  .media {
+  .media,
+  .contacts {
     padding: 30px;
+  }
+
+  .section-line-text {
+    padding-left: 30px;
+  }
+
+  .bio-line-text {
+    padding-left: 70px;
   }
 }
 
@@ -1372,6 +1382,10 @@
   .bio {
     padding-left: 20px;
     padding-top: 20px;
+  }
+
+  .bio-line-text {
+    padding-left: 20px;
   }
 
   .bio-description {
