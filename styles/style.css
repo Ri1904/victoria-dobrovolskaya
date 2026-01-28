@@ -1058,6 +1058,10 @@
     opacity: 90%;
   }
 
+  .page-header {
+    opacity: 100%;
+  }
+
   .header-logo {
     padding-left: 15px;
   }
@@ -1206,7 +1210,8 @@
 
   .press,
   .media,
-  .contacts {
+  .contacts,
+  .bio {
     padding: 30px;
   }
 
@@ -1215,7 +1220,7 @@
   }
 
   .bio-line-text {
-    padding-left: 70px;
+    padding-left: 30px;
   }
 }
 
@@ -1346,6 +1351,7 @@
 
   .about {
     padding-top: 25px;
+    padding-inline: 20px;
   }
 
   .about-description {
