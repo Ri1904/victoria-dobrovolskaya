@@ -1226,9 +1226,14 @@
 }
 
 @media (max-width: 580px) {
+  .cover {
+    height: 45vh;
+  }
+  
   .cover-title-wrapper {
     left: 55px;
   }
+
 
   .cover-title {
     letter-spacing: 0.1em;
