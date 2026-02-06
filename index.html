@@ -1,501 +1,597 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta name="description" content="сайт дирижера симофнического оркестра">
-  <title>Victoria Dobrovolskaya</title>
-  <link rel="icon" href="./icons/logo.png" type="image/png">
-  <link rel="apple-touch-icon" href="./icons/logo-ipad-favicon.png">
-  <link rel="stylesheet" href="./fonts/fonts.css">
-  <link rel="stylesheet" href="./styles/global.css">
-  <link rel="stylesheet" href="./styles/style.css">
-</head>
-<body>
-  <a href="index.html" class="return-to-main-page-link">
-    <img src="./icons/up-arrow.png" alt="стрелка вверх" class="return-image">
-  </a>
-  <header class="header">
-    <a href="index.html" class="header-logo">
-      <img src="./icons/logo.png" alt="логотип" class="header-logo-image">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta name="description" content="сайт дирижера симофнического оркестра" />
+    <title>Victoria Dobrovolskaya</title>
+    <link rel="icon" href="./icons/logo.png" type="image/png" />
+    <link rel="apple-touch-icon" href="./icons/logo-ipad-favicon.png" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <a href="index.html" class="return-to-main-page-link">
+      <img
+        src="./icons/up-arrow.png"
+        alt="стрелка вверх"
+        class="return-image"
+      />
     </a>
-    <nav class="header-menu">
-      <ul class="header-menu-list">
-        <li class="header-menu-item">
-          <a href="index.html" class="header-menu-link is-active">
-            главная
-          </a>
-        </li>
-        <li class="header-menu-item">
-          <a href="#bio" class="header-menu-link">
-            био
-          </a>
-        </li>
-        <li class="header-menu-item">
-          <a href="rcso.html" class="header-menu-link">
-            рксо
-          </a>
-        </li>
-        <!--<li class="header-menu-item">
+    <header class="header">
+      <a href="index.html" class="header-logo">
+        <img src="./icons/logo.png" alt="логотип" class="header-logo-image" />
+      </a>
+      <nav class="header-menu">
+        <ul class="header-menu-list">
+          <li class="header-menu-item">
+            <a href="index.html" class="header-menu-link is-active">
+              главная
+            </a>
+          </li>
+          <li class="header-menu-item">
+            <a href="#bio" class="header-menu-link"> био </a>
+          </li>
+          <li class="header-menu-item">
+            <a href="rcso.html" class="header-menu-link"> рксо </a>
+          </li>
+          <!--<li class="header-menu-item">
           <a href="#0" class="header-menu-link">
             концерты
           </a>
         </li> -->
-        <li class="header-menu-item">
-          <a href="#press" class="header-menu-link">
-            пресса
-          </a>
-        </li>
-        <li class="header-menu-item">
-          <a href="#media" class="header-menu-link">
-            медиа
-          </a>
-        </li>
-        <li class="header-menu-item">
-          <a href="#contacts" class="header-menu-link">
-            контакты
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <div class="header-language-list">
-      <a href="#0" class="lang-link is-active">ru</a>
-      <a href="#0" class="lang-link">en</a>
-    </div>
-    <button class="header-burger-button">
-      <span class="burger-span"></span>
-      <span class="burger-span"></span>
-      <span class="burger-span"></span>
-    </button>
-  </header>
-  <main class="main">
-    <section class="cover">
-      <div class="overlay"></div>
-      <video class="video" playsinline autoplay muted loop poster="./images/poster.png">
-        <source src="./images/victoria-background.webm" type="video/webm">
-        <source src="./images/victoria-background.mp4" type="video/mp4">
-      </video>
-      <div class="cover-title-wrapper">
-        <h1 class="cover-title">виктория добровольская</h1>
+          <li class="header-menu-item">
+            <a href="#press" class="header-menu-link"> пресса </a>
+          </li>
+          <li class="header-menu-item">
+            <a href="#media" class="header-menu-link"> медиа </a>
+          </li>
+          <li class="header-menu-item">
+            <a href="#contacts" class="header-menu-link"> контакты </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-language-list">
+        <a href="#0" class="lang-link is-active">ru</a>
+        <a href="#0" class="lang-link">en</a>
       </div>
-      <div class="logo-big-wrapper">
-        <img src="./icons/logo-big.png" class="logo-big">
-      </div>
-    </section>
-    <section class="about-top-line">
+      <button class="header-burger-button">
+        <span class="burger-span"></span>
+        <span class="burger-span"></span>
+        <span class="burger-span"></span>
+      </button>
+    </header>
+    <main class="main">
+      <section class="cover">
+        <div class="overlay"></div>
+        <video
+          class="video"
+          playsinline
+          autoplay
+          muted
+          loop
+          poster="./images/poster.png"
+        >
+          <source src="./images/victoria-background.webm" type="video/webm" />
+          <source src="./images/victoria-background.mp4" type="video/mp4" />
+        </video>
+        <div class="cover-title-wrapper">
+          <h1 class="cover-title">виктория добровольская</h1>
+        </div>
+        <div class="logo-big-wrapper">
+          <img src="./icons/logo-big.png" class="logo-big" />
+        </div>
+      </section>
+      <section class="about-top-line">
         <h2 class="about-top-line-title">
-          художественный руководитель и главный дирижер российско-китайского симфонического оркестра
+          художественный руководитель и главный дирижер российско-китайского
+          симфонического оркестра
         </h2>
-    </section>
-    <section class="about" id="about">
-      <a href="rcso.html" class="about-image-wrapper">
-        <img src="./images/orchestra.jpg" alt="российско-китайский оркестр и хор" class="about-image">
-      </a>
-      <div class="about-content">
-        <div class="about-description">
-          <p>
-            <span class="about-description-span">РКСО</span> - Российско-китайский симфонический оркестр и хор – 
-            это коллектив, успешно представивший ряд творческих проектов 
-            на ведущих концертных площадках России, среди которых 
-            Концертный зал Мариинского театра, Большой и Малый залы 
-            Санкт-Петербургской филармонии, Государственная академическая 
-            Капелла Санкт-Петербурга, Атриум Главного штаба Эрмитажа и др. 
+      </section>
+      <section class="about" id="about">
+        <a href="rcso.html" class="about-image-wrapper">
+          <img
+            src="./images/orchestra.jpg"
+            alt="российско-китайский оркестр и хор"
+            class="about-image"
+          />
+        </a>
+        <div class="about-content">
+          <div class="about-description">
+            <p>
+              <span class="about-description-span">РКСО</span> -
+              Российско-китайский симфонический оркестр и хор – это коллектив,
+              успешно представивший ряд творческих проектов на ведущих
+              концертных площадках России, среди которых Концертный зал
+              Мариинского театра, Большой и Малый залы Санкт-Петербургской
+              филармонии, Государственная академическая Капелла
+              Санкт-Петербурга, Атриум Главного штаба Эрмитажа и др.
+            </p>
+          </div>
+          <a href="rcso.html" class="button about-button"> узнать больше </a>
+        </div>
+      </section>
+      <div class="section-line bio-line">
+        <p class="section-line-text bio-line-text">Главная / Биография</p>
+      </div>
+      <section class="bio" id="bio">
+        <img
+          src="./images/logo-bio.png"
+          alt="logo-background"
+          class="bio-logo"
+        />
+        <h2 class="section-title">биография</h2>
+        <div class="bio-content">
+          <img
+            src="./images/victoria-bio.jpg"
+            alt="фотография Виктории Добровольской"
+            class="bio-portrait"
+          />
+          <p class="bio-description">
+            Художественный руководитель и главный дирижёр Российско-китайского
+            симфонического оркестра и Академического хора в Санкт-Петербурге.
+            Дирижёр проектов в Санкт-Петербургской консерватории. Художественный
+            руководитель и главный дирижёр Международного оркестра Харбинской
+            консерватории.
           </p>
+          <p class="bio-description">
+            В качестве приглашённого дирижёра сотрудничает с Санкт-Петербургской
+            филармонией, Хабаровской филармонией, Тольяттинской филармонией,
+            <span class="bio-span"
+              >Брянской филармонией, Музыкальным театром республики Карелия,
+              Молодежным симфоническим оркестром Санкт-Петербурга,
+              консерваторией имени Дж. Россини в Пезаро (Италия), Национальным
+              театром Бахрейна и др.</span
+            >
+          </p>
+          <p class="bio-span">Является дирижером балетов Эрмитажного театра.</p>
+          <a href="bio.html" class="button bio-button"> узнать больше </a>
         </div>
-        <a href="rcso.html" class="button about-button">
-          узнать больше
-        </a>
+      </section>
+      <div class="section-line press-line">
+        <p class="section-line-text">Главная / Пресса</p>
       </div>
-    </section>
-    <div class="section-line bio-line">
-      <p class="section-line-text bio-line-text">Главная / Биография</p>
-    </div>
-    <section class="bio" id="bio">
-      <img src="./images/logo-bio.png" alt="logo-background" class="bio-logo">
-      <h2 class="section-title">
-        биография
-      </h2>
-      <div class="bio-content">
-        <img src="./images/victoria-bio.jpg" alt="фотография Виктории Добровольской" class="bio-portrait">
-        <p class="bio-description">
-          Художественный руководитель и главный 
-          дирижёр Российско-китайского 
-          симфонического оркестра 
-          и Академического хора в Санкт-Петербурге. 
-          Дирижёр проектов 
-          в Санкт-Петербургской консерватории. 
-          Художественный руководитель и главный 
-          дирижёр Международного оркестра 
-          Харбинской консерватории. 
-        </p>
-        <p class="bio-description">
-          В качестве приглашённого дирижёра 
-          сотрудничает с Санкт-Петербургской 
-          филармонией, Хабаровской филармонией, 
-          Тольяттинской филармонией, 
-          <span class="bio-span">Брянской филармонией, Музыкальным театром республики Карелия, 
-          Молодежным симфоническим оркестром Санкт-Петербурга, 
-          консерваторией имени Дж. Россини в Пезаро (Италия), 
-          Национальным театром Бахрейна и др.</span>
-        </p>
-        <p class="bio-span">
-          Является дирижером балетов Эрмитажного театра.
-        </p>
-        <a href="bio.html" class="button bio-button">
-          узнать больше
-        </a>
+      <section class="press" id="press">
+        <h2 class="section-title">пресса</h2>
+        <ul class="press-card-list">
+          <li class="press-card-list-item">
+            <a
+              href="https://t.me/dobrovica/149"
+              target="_blank"
+              class="press-card-link"
+            >
+              <article class="press-card">
+                <div class="press-card-cover">
+                  <img src="./images/press-card-cover-1.jpg" alt="обложка" />
+                </div>
+                <p class="press-card-subtitle">телеканал санкт-петербург</p>
+                <h3 class="press-card-title">Культурная эволюция 2025</h3>
+                <div class="press-card-description">
+                  <p>
+                    За короткое время РКСО стал заметным явлением в культурной
+                    жизни России
+                  </p>
+                </div>
+                <button class="press-card-button">Смотреть</button>
+              </article>
+            </a>
+          </li>
+          <li class="press-card-list-item">
+            <a
+              href="https://www.1tvspb.ru/event/Dirizher_professiya_zhenskaya_/"
+              target="_blank"
+              class="press-card-link"
+            >
+              <article class="press-card">
+                <div class="press-card-cover">
+                  <img src="./images/press-card-cover-2.jpg" alt="обложка" />
+                </div>
+                <p class="press-card-subtitle">первый канал</p>
+                <h3 class="press-card-title">Интервью с дирижёрами</h3>
+                <div class="press-card-description">
+                  <p>
+                    Уникальный симфонический оркестр и его дирижёры. Что
+                    приподнесёт коллектив ко Дню Рождения города?
+                  </p>
+                </div>
+                <button class="press-card-button">Смотреть</button>
+              </article>
+            </a>
+          </li>
+          <li class="press-card-list-item">
+            <a
+              href="https://youtu.be/AfzI7bOccRc?si=ZmvIge2BzFInClOX"
+              target="_blank"
+              class="press-card-link"
+            >
+              <article class="press-card">
+                <div class="press-card-cover">
+                  <img src="./images/press-card-cover-3.jpg" alt="обложка" />
+                </div>
+                <p class="press-card-subtitle">программа алисы дудаевой</p>
+                <h3 class="press-card-title">Неженских дел мастерка</h3>
+                <div class="press-card-description">
+                  <p>
+                    Википедия утверждает, что таких женщин всего 30 на весь мир!
+                    Виктория - одна из них
+                  </p>
+                </div>
+                <button class="press-card-button">Смотреть</button>
+              </article>
+            </a>
+          </li>
+          <li class="press-card-list-item">
+            <a
+              href="https://youtu.be/xe4kEucw1L8?si=Hhx6ILzv_Lwe0KKX"
+              target="_blank"
+              class="press-card-link"
+            >
+              <article class="press-card">
+                <div class="press-card-cover">
+                  <img src="./images/press-card-cover-4.jpg" alt="обложка" />
+                </div>
+                <p class="press-card-subtitle">
+                  первый канал. вести санкт-петербург
+                </p>
+                <h3 class="press-card-title">Репортаж к 8-му марта</h3>
+                <div class="press-card-description">
+                  <p>
+                    Виктория Добровольская и Тунжо Чжэн об особенностях работы с
+                    симфоническим оркестром и академическим хором
+                  </p>
+                </div>
+                <button class="press-card-button">Смотреть</button>
+              </article>
+            </a>
+          </li>
+          <li class="press-card-list-item">
+            <a
+              href="https://rg.ru/2023/11/05/reg-szfo/muzykanty-prostilis-s-iuriem-temirkanovym-koncertom-v-ego-rodnom-zale.html"
+              target="_blank"
+              class="press-card-link"
+            >
+              <article class="press-card">
+                <div class="press-card-cover">
+                  <img src="./images/press-card-cover-5.jpg" alt="обложка" />
+                </div>
+                <p class="press-card-subtitle">российская газета</p>
+                <h3 class="press-card-title">Прощание на языке музыки</h3>
+                <div class="press-card-description">
+                  <p>
+                    Музыканты простились с Юрием Темиркановым концертом в его
+                    родном зале в день смерти Маэстро
+                  </p>
+                </div>
+                <button class="press-card-button">Смотреть</button>
+              </article>
+            </a>
+          </li>
+          <li class="press-card-list-item">
+            <a
+              href="https://youtu.be/6w9KNXZGbvQ?si=WKnN6bqpnhkGruoZ"
+              target="_blank"
+              class="press-card-link"
+            >
+              <article class="press-card">
+                <div class="press-card-cover">
+                  <img src="./images/press-card-cover-6.jpg" alt="обложка" />
+                </div>
+                <p class="press-card-subtitle">cgtn</p>
+                <h3 class="press-card-title">Премьера в Москве</h3>
+                <div class="press-card-description">
+                  <p>
+                    Глобальная телевизионная сеть Китая о гастролях
+                    Российско-китайского симфонического оркестра
+                  </p>
+                </div>
+                <button class="press-card-button">Смотреть</button>
+              </article>
+            </a>
+          </li>
+          <li class="press-card-list-item">
+            <a
+              href="https://www.classicalmusicnews.ru/reports/russian-victoria-dobrovolskaya-became-first-female-conductor-in-the-history-of-bahrain/"
+              target="_blank"
+              class="press-card-link"
+            >
+              <article class="press-card">
+                <div class="press-card-cover">
+                  <img src="./images/press-card-cover-7.jpg" alt="обложка" />
+                </div>
+                <p class="press-card-subtitle">classical music news</p>
+                <h3 class="press-card-title">Беспрецедентный случай</h3>
+                <div class="press-card-description">
+                  <p>
+                    Россиянка Виктория Добровольская стала первой
+                    женщиной-дирижером в истории Бахрейна
+                  </p>
+                </div>
+                <button class="press-card-button">Смотреть</button>
+              </article>
+            </a>
+          </li>
+          <li class="press-card-list-item">
+            <a
+              href="https://vk.com/video-211437014_456241945?t=4m23s"
+              target="_blank"
+              class="press-card-link"
+            >
+              <article class="press-card">
+                <div class="press-card-cover">
+                  <img src="./images/press-card-cover-8.jpg" alt="обложка" />
+                </div>
+                <p class="press-card-subtitle">новости от артемия лебедева</p>
+                <h3 class="press-card-title">
+                  Впервые на сцене арабского мира
+                </h3>
+                <div class="press-card-description">
+                  <p>
+                    Концерт в Национальном театре в присутствовии членов
+                    королевской семьи, министра культуры Бахрейна,
+                    международного посольства
+                  </p>
+                </div>
+                <button class="press-card-button">Смотреть</button>
+              </article>
+            </a>
+          </li>
+          <li class="press-card-list-item">
+            <a
+              href="https://youtu.be/gOnFu2eC_mI?si=pBdB_xmtmEFRWfcY"
+              target="_blank"
+              class="press-card-link"
+            >
+              <article class="press-card">
+                <div class="press-card-cover">
+                  <img src="./images/press-card-cover-9.jpg" alt="обложка" />
+                </div>
+                <p class="press-card-subtitle">телеканал санкт-петербург</p>
+                <h3 class="press-card-title">Ко Дню Рождения города!</h3>
+                <div class="press-card-description">
+                  <p>
+                    Дирижёры Виктория Добровольская и Тунжо Чжэн делятся
+                    эмоциями от работы над уникальным проектом
+                  </p>
+                </div>
+                <button class="press-card-button">Смотреть</button>
+              </article>
+            </a>
+          </li>
+        </ul>
+        <a href="press.html" class="button look-button"> смотреть больше </a>
+      </section>
+      <div class="section-line">
+        <p class="section-line-text">Главная / Медиа</p>
       </div>
-    </section>
-    <div class="section-line press-line">
-      <p class="section-line-text">Главная / Пресса</p>
-    </div>
-    <section class="press" id="press">
-      <h2 class="section-title">
-        пресса
-      </h2>
-      <ul class="press-card-list">
-        <li class="press-card-list-item">
-          <a href="https://t.me/dobrovica/149" target="_blank"  class="press-card-link">
-            <article class="press-card">
-              <div class="press-card-cover">
-                <img src="./images/press-card-cover-1.jpg" alt="обложка">
-              </div>
-              <p class="press-card-subtitle">
-                телеканал санкт-петербург
-              </p>
-              <h3 class="press-card-title">
-                Культурная эволюция 2025
-              </h3>
-              <div class="press-card-description">
-                <p>
-                  За короткое время РКСО стал заметным явлением в культурной жизни России
-                </p>
-              </div>
-              <button class="press-card-button">
-                Смотреть
-              </button>
-            </article>
+      <section class="media" id="media">
+        <h2 class="section-title">медиа</h2>
+        <div class="media-video-cover">
+          <a
+            href="https://www.youtube.com/@vittoriaperfetta"
+            target="_blank"
+            class="media-video-cover-link"
+          >
+            <h3 class="media-video-cover-title">смотреть видео</h3>
+            <img
+              src="./images/media-video-cover.jpg"
+              alt="галерея"
+              class="media-video-cover-image"
+            />
           </a>
-        </li>
-         <li class="press-card-list-item">
-          <a href="https://www.1tvspb.ru/event/Dirizher_professiya_zhenskaya_/"  target="_blank" class="press-card-link">
-            <article class="press-card">
-              <div class="press-card-cover">
-                <img src="./images/press-card-cover-2.jpg" alt="обложка">
-              </div>
-              <p class="press-card-subtitle">
-                первый канал
-              </p>
-              <h3 class="press-card-title">
-                Интервью с дирижёрами
-              </h3>
-              <div class="press-card-description">
-                <p>
-                  Уникальный симфонический оркестр и его дирижёры. Что приподнесёт коллектив ко Дню Рождения города?
-                </p>
-              </div>
-              <button class="press-card-button">
-                Смотреть
-              </button>
-            </article>
-          </a>
-        </li>
-         <li class="press-card-list-item">
-          <a href="https://youtu.be/AfzI7bOccRc?si=ZmvIge2BzFInClOX" target="_blank"  class="press-card-link">
-            <article class="press-card">
-              <div class="press-card-cover">
-                <img src="./images/press-card-cover-3.jpg" alt="обложка">
-              </div>
-              <p class="press-card-subtitle">
-                программа алисы дудаевой
-              </p>
-              <h3 class="press-card-title">
-                Неженских дел мастерка
-              </h3>
-              <div class="press-card-description">
-                <p>
-                  Википедия утверждает, что таких женщин всего 30 на весь мир! Виктория - одна из них
-                </p>
-              </div>
-              <button class="press-card-button">
-                Смотреть
-              </button>
-            </article>
-          </a>
-        </li>
-        <li class="press-card-list-item">
-          <a href="https://youtu.be/xe4kEucw1L8?si=Hhx6ILzv_Lwe0KKX" target="_blank"  class="press-card-link">
-            <article class="press-card">
-              <div class="press-card-cover">
-                <img src="./images/press-card-cover-4.jpg" alt="обложка">
-              </div>
-              <p class="press-card-subtitle">
-                первый канал. вести санкт-петербург
-              </p>
-              <h3 class="press-card-title">
-                Репортаж к 8-му марта
-              </h3>
-              <div class="press-card-description">
-                <p>
-                  Виктория Добровольская и Тунжо Чжэн
-                  об особенностях работы с симфоническим
-                  оркестром и академическим хором
-                </p>
-              </div>
-              <button class="press-card-button">
-                Смотреть
-              </button>
-            </article>
-          </a>
-        </li>
-        <li class="press-card-list-item">
-          <a href="https://rg.ru/2023/11/05/reg-szfo/muzykanty-prostilis-s-iuriem-temirkanovym-koncertom-v-ego-rodnom-zale.html" target="_blank"  class="press-card-link">
-            <article class="press-card">
-              <div class="press-card-cover">
-                <img src="./images/press-card-cover-5.jpg" alt="обложка">
-              </div>
-              <p class="press-card-subtitle">
-                российская газета
-              </p>
-              <h3 class="press-card-title">
-                Прощание на языке музыки
-              </h3>
-              <div class="press-card-description">
-                <p>
-                  Музыканты простились с Юрием Темиркановым концертом в его родном зале в день смерти Маэстро
-                </p>
-              </div>
-              <button class="press-card-button">
-                Смотреть
-              </button>
-            </article>
-          </a>
-        </li>
-        <li class="press-card-list-item">
-          <a href="https://youtu.be/6w9KNXZGbvQ?si=WKnN6bqpnhkGruoZ" target="_blank" class="press-card-link">
-            <article class="press-card">
-              <div class="press-card-cover">
-                <img src="./images/press-card-cover-6.jpg" alt="обложка">
-              </div>
-              <p class="press-card-subtitle">
-                cgtn
-              </p>
-              <h3 class="press-card-title">
-                Премьера в Москве
-              </h3>
-              <div class="press-card-description">
-                <p>
-                  Глобальная телевизионная сеть Китая 
-                  о гастролях Российско-китайского 
-                  симфонического оркестра
-                </p>
-              </div>
-              <button class="press-card-button">
-                Смотреть
-              </button>
-            </article>
-          </a>
-        </li>
-        <li class="press-card-list-item">
-          <a href="https://www.classicalmusicnews.ru/reports/russian-victoria-dobrovolskaya-became-first-female-conductor-in-the-history-of-bahrain/" target="_blank" class="press-card-link">
-            <article class="press-card">
-              <div class="press-card-cover">
-                <img src="./images/press-card-cover-7.jpg" alt="обложка">
-              </div>
-              <p class="press-card-subtitle">
-                classical music news
-              </p>
-              <h3 class="press-card-title">
-                Беспрецедентный случай
-              </h3>
-              <div class="press-card-description">
-                <p>
-                  Россиянка Виктория Добровольская 
-                  стала первой женщиной-дирижером 
-                  в истории Бахрейна
-                </p>
-              </div>
-              <button class="press-card-button">
-                Смотреть
-              </button>
-            </article>
-          </a>
-        </li>
-        <li class="press-card-list-item">
-          <a href="https://vk.com/video-211437014_456241945?t=4m23s" target="_blank"  class="press-card-link">
-            <article class="press-card">
-              <div class="press-card-cover">
-                <img src="./images/press-card-cover-8.jpg" alt="обложка">
-              </div>
-              <p class="press-card-subtitle">
-                новости от артемия лебедева
-              </p>
-              <h3 class="press-card-title">
-                Впервые на сцене арабского мира
-              </h3>
-              <div class="press-card-description">
-                <p>
-                  Концерт в Национальном театре в присутствовии членов королевской семьи, министра культуры Бахрейна, международного посольства
-                </p>
-              </div>
-              <button class="press-card-button">
-                Смотреть
-              </button>
-            </article>
-          </a>
-        </li>
-        <li class="press-card-list-item">
-          <a href="https://youtu.be/gOnFu2eC_mI?si=pBdB_xmtmEFRWfcY" target="_blank"  class="press-card-link">
-            <article class="press-card">
-              <div class="press-card-cover">
-                <img src="./images/press-card-cover-9.jpg" alt="обложка">
-              </div>
-              <p class="press-card-subtitle">
-                телеканал санкт-петербург
-              </p>
-              <h3 class="press-card-title">
-                Ко Дню Рождения города!
-              </h3>
-              <div class="press-card-description">
-                <p>
-                  Дирижёры Виктория Добровольская и Тунжо Чжэн делятся эмоциями от работы над уникальным проектом
-                </p>
-              </div>
-              <button class="press-card-button">
-                Смотреть
-              </button>
-            </article>
-          </a>
-        </li>
-      </ul>
-      <a href="press.html" class="button look-button">
+        </div>
+        <div class="media-grid">
+          <div class="media-grid-box box-one">
+            <img
+              src="./images/media-image (1).jpg"
+              alt="галерея"
+              class="media-grid-box-image"
+            />
+          </div>
+          <div class="media-grid-box box-two">
+            <img
+              src="./images/media-image (2).JPG"
+              alt="галерея"
+              class="media-grid-box-image"
+            />
+          </div>
+          <div class="media-grid-box box-three">
+            <img
+              src="./images/media-image (3).JPG"
+              alt="галерея"
+              class="media-grid-box-image"
+            />
+          </div>
+          <div class="media-grid-box box-four">
+            <img
+              src="./images/media-image (4).jpg"
+              alt="галерея"
+              class="media-grid-box-image"
+            />
+          </div>
+          <div class="media-grid-box box-five">
+            <img
+              src="./images/media-image (5).jpg"
+              alt="галерея"
+              class="media-grid-box-image"
+            />
+          </div>
+          <div class="media-grid-box box-six">
+            <img
+              src="./images/media-image (6).jpg"
+              alt="галерея"
+              class="media-grid-box-image"
+            />
+          </div>
+          <div class="media-grid-box box-seven">
+            <img
+              src="./images/media-image (7).jpg"
+              alt="галерея"
+              class="media-grid-box-image"
+            />
+          </div>
+          <div class="media-grid-box box-eight">
+            <img
+              src="./images/media-image (8).jpg"
+              alt="галерея"
+              class="media-grid-box-image"
+            />
+          </div>
+          <div class="media-grid-box box-nine">
+            <img
+              src="./images/media-image (9).jpg"
+              alt="галерея"
+              class="media-grid-box-image"
+            />
+          </div>
+          <div class="media-grid-box box-ten">
+            <img
+              src="./images/media-image (10).jpg"
+              alt="галерея"
+              class="media-grid-box-image"
+            />
+          </div>
+          <div class="media-grid-box box-eleven">
+            <img
+              src="./images/media-image (11).jpg"
+              alt="галерея"
+              class="media-grid-box-image"
+            />
+          </div>
+          <div class="media-grid-box box-twelve">
+            <img
+              src="./images/media-image (12).JPG"
+              alt="галерея"
+              class="media-grid-box-image"
+            />
+          </div>
+          <div class="media-grid-box box-thirteen">
+            <img
+              src="./images/media-image (13).jpg"
+              alt="галерея"
+              class="media-grid-box-image"
+            />
+          </div>
+          <div class="media-grid-box box-fourteen">
+            <img
+              src="./images/media-image (14).JPG"
+              alt="галерея"
+              class="media-grid-box-image"
+            />
+          </div>
+          <div class="media-grid-box box-fifteen">
+            <img
+              src="./images/media-image (15).JPG"
+              alt="галерея"
+              class="media-grid-box-image"
+            />
+          </div>
+          <div class="media-grid-box box-sixteen">
+            <img
+              src="./images/media-image (16).JPG"
+              alt="галерея"
+              class="media-grid-box-image"
+            />
+          </div>
+        </div>
+        <a
+          href="https://vk.com/vittoriaperfetta"
+          target="_blank"
+          class="button look-button"
+        >
           смотреть больше
-      </a>
-    </section>
-    <div class="section-line">
-      <p class="section-line-text">Главная / Медиа</p>
-    </div>
-    <section class="media" id="media">
-      <h2 class="section-title">
-        медиа
-      </h2>
-      <div class="media-video-cover">
-        <a href="https://www.youtube.com/@vittoriaperfetta" target="_blank"  class="media-video-cover-link">
-          <h3 class="media-video-cover-title">
-          смотреть видео
-        </h3>
-        <img src="./images/media-video-cover.jpg" alt="галерея" class="media-video-cover-image">
         </a>
-      </div>
-      <div class="media-grid">
-        <div class="media-grid-box box-one">
-          <img src="./images/media-image (1).jpg" alt="галерея" class="media-grid-box-image">
-        </div>
-        <div class="media-grid-box box-two">
-          <img src="./images/media-image (2).JPG" alt="галерея" class="media-grid-box-image">
-        </div>
-        <div class="media-grid-box box-three">
-          <img src="./images/media-image (3).JPG" alt="галерея" class="media-grid-box-image">
-        </div>
-        <div class="media-grid-box box-four">
-          <img src="./images/media-image (4).jpg" alt="галерея" class="media-grid-box-image">
-        </div>
-        <div class="media-grid-box box-five">
-          <img src="./images/media-image (5).jpg" alt="галерея" class="media-grid-box-image">
-        </div>
-        <div class="media-grid-box box-six">
-          <img src="./images/media-image (6).jpg" alt="галерея" class="media-grid-box-image">
-        </div>
-        <div class="media-grid-box box-seven">
-          <img src="./images/media-image (7).jpg" alt="галерея" class="media-grid-box-image">
-        </div>
-        <div class="media-grid-box box-eight">
-          <img src="./images/media-image (8).jpg" alt="галерея" class="media-grid-box-image">
-        </div>
-        <div class="media-grid-box box-nine">
-          <img src="./images/media-image (9).jpg" alt="галерея" class="media-grid-box-image">
-        </div>
-        <div class="media-grid-box box-ten">
-          <img src="./images/media-image (10).jpg" alt="галерея" class="media-grid-box-image">
-        </div>
-        <div class="media-grid-box box-eleven">
-          <img src="./images/media-image (11).jpg" alt="галерея" class="media-grid-box-image">
-        </div>
-        <div class="media-grid-box box-twelve">
-          <img src="./images/media-image (12).JPG" alt="галерея" class="media-grid-box-image">
-        </div>
-        <div class="media-grid-box box-thirteen">
-          <img src="./images/media-image (13).jpg" alt="галерея" class="media-grid-box-image">
-        </div>
-        <div class="media-grid-box box-fourteen">
-          <img src="./images/media-image (14).JPG" alt="галерея" class="media-grid-box-image">
-        </div>
-        <div class="media-grid-box box-fifteen">
-          <img src="./images/media-image (15).JPG" alt="галерея" class="media-grid-box-image">
-        </div>
-        <div class="media-grid-box box-sixteen">
-          <img src="./images/media-image (16).JPG" alt="галерея" class="media-grid-box-image">
-        </div>
-      </div>
-      <a href="https://vk.com/vittoriaperfetta" target="_blank"  class="button look-button">
-          смотреть больше
-      </a>
-    </section>
-  </main>
-  <footer class="contacts" id="contacts">
+      </section>
+    </main>
+    <footer class="contacts" id="contacts">
       <div class="contacts-content top-line">
-        <h2 class="section-title">
-        контакты
-      </h2>
-      <div class="socials">
-        <a href="https://web.telegram.org/k/#@dobrovica" target="_blank"  class="socials-icon-box">
-          <img src="./icons/socials-icon-1.png" alt="иконка телеграм" class="social-icon-image">
-        </a>
-        <a href="https://vk.com/vittoriaperfetta" target="_blank"  class="socials-icon-box">
-          <img src="./icons/socials-icon-2.png" alt="иконка вк" class="social-icon-image">
-        </a>
-        <a href="https://www.youtube.com/@vittoriaperfetta" target="_blank" class="socials-icon-box">
-          <img src="./icons/socials-icon-3.png" alt="иконка ютуб" class="social-icon-image">
-        </a>
-        <a href="https://www.instagram.com/victoria_dobrovolskaia" target="_blank"  class="socials-icon-box"><img src="./icons/socials-icon-4.png" alt="иконка инстаграм" class="social-icon-image"></a>
-        <a href="https://www.facebook.com/vittoriaperfetta" target="_blank" class="socials-icon-box">
-          <img src="./icons/socials-icon-5.png" alt="иконка фейсбук" class="social-icon-image">
-        </a>
-      </div>
+        <h2 class="section-title">контакты</h2>
+        <div class="socials">
+          <a
+            href="https://web.telegram.org/k/#@dobrovica"
+            target="_blank"
+            class="socials-icon-box"
+          >
+            <img
+              src="./icons/socials-icon-1.png"
+              alt="иконка телеграм"
+              class="social-icon-image"
+            />
+          </a>
+          <a
+            href="https://vk.com/vittoriaperfetta"
+            target="_blank"
+            class="socials-icon-box"
+          >
+            <img
+              src="./icons/socials-icon-2.png"
+              alt="иконка вк"
+              class="social-icon-image"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/@vittoriaperfetta"
+            target="_blank"
+            class="socials-icon-box"
+          >
+            <img
+              src="./icons/socials-icon-3.png"
+              alt="иконка ютуб"
+              class="social-icon-image"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/victoria_dobrovolskaia"
+            target="_blank"
+            class="socials-icon-box"
+            ><img
+              src="./icons/socials-icon-4.png"
+              alt="иконка инстаграм"
+              class="social-icon-image"
+          /></a>
+          <a
+            href="https://www.facebook.com/vittoriaperfetta"
+            target="_blank"
+            class="socials-icon-box"
+          >
+            <img
+              src="./icons/socials-icon-5.png"
+              alt="иконка фейсбук"
+              class="social-icon-image"
+            />
+          </a>
+        </div>
       </div>
       <div class="contacts-content">
         <div class="contacts-box">
-          <h3 class="contacts-box-title">
-            По вопросам сотрудничества:
-          </h3>
+          <h3 class="contacts-box-title">По вопросам сотрудничества:</h3>
           <div class="contacts-box-description">
-            <a class="contacts-link"  href="tel:+79313086222">+79313086222</a>
+            <a class="contacts-link" href="tel:+79313086222">+79313086222</a>
           </div>
           <div class="contacts-box-description">
-            <p>
-              Елена Владимировна Сергеева
-            </p>
+            <p>Елена Владимировна Сергеева</p>
           </div>
           <div class="contacts-box-description">
-            <a class="contacts-link"  href="mailto:rcso.spb@yandex.ru">rcso.spb@yandex.ru</a>
+            <a class="contacts-link" href="mailto:rcso.spb@yandex.ru"
+              >rcso.spb@yandex.ru</a
+            >
           </div>
         </div>
         <div class="contacts-box">
-          <h3 class="contacts-box-title">
-            По вопросам организации концертов:
-          </h3>
+          <h3 class="contacts-box-title">По вопросам организации концертов:</h3>
           <div class="contacts-box-description">
             <a class="contacts-link" href="tel:+79063080126">+79063080126</a>
           </div>
           <div class="contacts-box-description">
-            <p>
-              Алла Евгеньевна Жбанова
-            </p>
+            <p>Алла Евгеньевна Жбанова</p>
           </div>
         </div>
       </div>
     </footer>
     <script src="./scripts/script.js"></script>
-</body>
+  </body>
 </html>

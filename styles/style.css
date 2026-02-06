@@ -188,7 +188,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 35px;
-  padding:  70px 40px;
+  padding: 70px 40px;
   background-color: var(--color-sandy);
 }
 
@@ -477,20 +477,20 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(13, max-width 250px);
-  grid-template-areas: 
-  "thirteen thirteen thirteen thirteen seven seven"
-  "thirteen thirteen thirteen thirteen seven seven"
-  "eleven eleven eleven eleven seven seven"
-  "eleven eleven eleven eleven five five"
-  "three three eight eight five five"
-  "six six fourteen fourteen fourteen fourteen"
-  "fifteen fifteen fourteen fourteen fourteen fourteen"
-  "fifteen fifteen nine nine nine nine"
-  "sixteen sixteen nine nine nine nine"
-  "one one one one two two"
-  "one one one one four four"
-  "twelve twelve twelve ten ten ten"
-  "twelve twelve twelve ten ten ten";
+  grid-template-areas:
+    'thirteen thirteen thirteen thirteen seven seven'
+    'thirteen thirteen thirteen thirteen seven seven'
+    'eleven eleven eleven eleven seven seven'
+    'eleven eleven eleven eleven five five'
+    'three three eight eight five five'
+    'six six fourteen fourteen fourteen fourteen'
+    'fifteen fifteen fourteen fourteen fourteen fourteen'
+    'fifteen fifteen nine nine nine nine'
+    'sixteen sixteen nine nine nine nine'
+    'one one one one two two'
+    'one one one one four four'
+    'twelve twelve twelve ten ten ten'
+    'twelve twelve twelve ten ten ten';
   gap: 10px;
 }
 
@@ -502,9 +502,10 @@
   transition: all 0.2s ease-in-out;
 }
 
-.media-grid-box-image.active {
-  /*пока непонятно*/
-}
+/*.media-grid-box-image.active {
+  пока непонятно
+} 
+*/
 
 .box-one {
   grid-area: one;
@@ -627,7 +628,7 @@
 @media (max-width: 1404px) {
   .cover-title-wrapper {
     left: 160px;
-}
+  }
 
   .cover-title {
     font-size: 55px;
@@ -684,7 +685,6 @@
   .bio-span {
     width: 650px;
   }
-
 }
 
 @media (max-width: 1214px) {
@@ -736,7 +736,6 @@
     gap: 45px;
     width: fit-content;
     padding: 40px;
-    
   }
 
   .bio-portrait {
@@ -751,7 +750,6 @@
   .bio-span {
     width: 100%;
   }
-
 }
 
 @media (max-width: 1073px) {
@@ -804,7 +802,6 @@
     gap: 45px;
     width: fit-content;
     padding: 40px;
-    
   }
 
   .bio-portrait {
@@ -819,7 +816,6 @@
   .bio-span {
     width: 100%;
   }
-
 }
 
 @media (max-width: 995px) {
@@ -878,7 +874,6 @@
   .bio-content {
     gap: 40px;
     padding: 40px;
-    
   }
 
   .bio-portrait {
@@ -897,7 +892,6 @@
     top: 10px;
     width: 36px;
   }
-
 }
 
 @media (max-width: 905px) {
@@ -942,14 +936,14 @@
   .bio {
     padding-inline: 70px;
   }
-  
+
   .bio-line-text {
     padding-left: 70px;
   }
 
   .bio-content {
     gap: 30px;
-    padding: 40px; 
+    padding: 40px;
   }
 
   .bio-portrait {
@@ -964,7 +958,7 @@
   .contacts-box {
     font-size: 16px;
   }
-  
+
   .return-to-main-page-link {
     width: 55px;
   }
@@ -977,7 +971,6 @@
     top: 8px;
     width: 33px;
   }
-
 }
 
 @media (max-width: 817px) {
@@ -1050,7 +1043,6 @@
     top: 8px;
     width: 30px;
   }
-
 }
 
 @media (max-width: 767px) {
@@ -1090,7 +1082,6 @@
   .header-burger-button.active-button .burger-span:nth-child(2) {
     display: none;
   }
-
 
   .header-menu {
     position: absolute;
@@ -1229,11 +1220,10 @@
   .cover {
     height: 45vh;
   }
-  
+
   .cover-title-wrapper {
     left: 55px;
   }
-
 
   .cover-title {
     letter-spacing: 0.1em;
@@ -1339,7 +1329,6 @@
     min-height: 400px;
     gap: 15px;
   }
-  
 }
 
 @media (max-width: 485px) {
@@ -1476,7 +1465,7 @@
     width: 25px;
     top: 7px;
   }
-  
+
   .bio {
     padding-left: 20px;
   }
