@@ -171,7 +171,8 @@
 }
 
 .about-top-line {
-  background-color: var(--color-light);
+  background-color: #181717;
+  color: var(--color-sandy);
 }
 
 .about-top-line-title {
@@ -188,8 +189,9 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 35px;
-  padding: 70px 40px;
-  background-color: var(--color-sandy);
+  margin-top: 30px;
+  padding: 70px;
+  background-color: rgba(129, 120, 110, 0.5);
 }
 
 .about-image-wrapper {
@@ -252,12 +254,13 @@
   position: relative;
   max-width: 100%;
   padding: 90px 50px 100px 170px;
+  margin-bottom: 70px;
 }
 
 .bio-logo {
   position: absolute;
   right: 0;
-  bottom: -175px;
+  bottom: -100px;
   max-width: 570px;
 }
 
@@ -284,7 +287,7 @@
 
 .section-line {
   padding-block: 3px;
-  margin-top: 90px;
+  margin-top: 30px;
   font-family: 'Book Antiqua', sans-serif;
   font-size: 13px;
   background-color: rgba(230, 227, 227, 0.7);
@@ -478,19 +481,19 @@
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(13, max-width 250px);
   grid-template-areas:
-    'thirteen thirteen thirteen thirteen seven seven'
-    'thirteen thirteen thirteen thirteen seven seven'
-    'eleven eleven eleven eleven seven seven'
-    'eleven eleven eleven eleven five five'
-    'three three eight eight five five'
-    'six six fourteen fourteen fourteen fourteen'
-    'fifteen fifteen fourteen fourteen fourteen fourteen'
-    'fifteen fifteen nine nine nine nine'
-    'sixteen sixteen nine nine nine nine'
-    'one one one one two two'
-    'one one one one four four'
-    'twelve twelve twelve ten ten ten'
-    'twelve twelve twelve ten ten ten';
+    "thirteen thirteen thirteen thirteen seven seven"
+    "thirteen thirteen thirteen thirteen seven seven"
+    "eleven eleven eleven eleven seven seven"
+    "eleven eleven eleven eleven five five"
+    "three three eight eight five five"
+    "six six fourteen fourteen fourteen fourteen"
+    "fifteen fifteen fourteen fourteen fourteen fourteen"
+    "fifteen fifteen nine nine nine nine"
+    "sixteen sixteen nine nine nine nine"
+    "one one one one two two"
+    "one one one one four four"
+    "twelve twelve twelve ten ten ten"
+    "twelve twelve twelve ten ten ten";
   gap: 10px;
 }
 
@@ -1217,8 +1220,12 @@
 }
 
 @media (max-width: 580px) {
+  .header {
+    background-color: transparent;
+  }
+  
   .cover {
-    height: 45vh;
+    height: 50vh;
   }
 
   .cover-title-wrapper {
