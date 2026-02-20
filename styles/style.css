@@ -262,7 +262,7 @@
   position: absolute;
   right: 0;
   bottom: -100px;
-  max-width: 570px;
+  max-width: 470px;
 }
 
 .section-title {
@@ -274,6 +274,14 @@
   font-size: 50px;
   letter-spacing: 3px;
   text-transform: uppercase;
+}
+
+.bio-title {
+  color: transparent;
+}
+
+.bio-title::before {
+  display: none;
 }
 
 .section-title::before {
@@ -319,10 +327,10 @@
   line-height: 30px;
 }
 
-.bio-span {
+/*.bio-span {
   display: inline-block;
   width: 700px;
-}
+}*/
 
 .bio-button {
   color: #000;
@@ -330,9 +338,9 @@
 
 .bio-portrait {
   position: absolute;
-  top: -137px;
+  top: -100px;
   left: 440px;
-  width: 660px;
+  width: 460px;
 }
 
 .press {
@@ -1201,7 +1209,7 @@
   }
 
   .bio-description {
-    width: 360px;
+    width: 100%;
   }
 
   .press,
