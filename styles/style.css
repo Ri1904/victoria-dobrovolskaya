@@ -46,7 +46,7 @@
 .header-menu-list {
   display: flex;
   justify-content: flex-start;
-  gap: 50px;
+  gap: 30px;
   padding-left: 50px;
   opacity: 100%;
   list-style: none;
