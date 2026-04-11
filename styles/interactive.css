@@ -2,3 +2,9 @@
   background: url(../images/media-image\ \(1\).jpg) center/cover no-repeat;
   min-height: 80vh;
 }
+
+@media (max-width: 520px) {
+  .interactive-title {
+    font-size: clamp(1.188rem, -0.391rem + 7.895vi, 2.125rem);
+  }
+}

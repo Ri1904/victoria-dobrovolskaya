@@ -275,6 +275,7 @@
   font-size: 50px;
   letter-spacing: 3px;
   text-transform: uppercase;
+  max-inline-size: 100%;
 }
 
 .bio-title {
@@ -491,19 +492,19 @@
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(13, max-width 250px);
   grid-template-areas:
-    "thirteen thirteen thirteen thirteen seven seven"
-    "thirteen thirteen thirteen thirteen seven seven"
-    "eleven eleven eleven eleven seven seven"
-    "eleven eleven eleven eleven five five"
-    "three three eight eight five five"
-    "six six fourteen fourteen fourteen fourteen"
-    "fifteen fifteen fourteen fourteen fourteen fourteen"
-    "fifteen fifteen nine nine nine nine"
-    "sixteen sixteen nine nine nine nine"
-    "one one one one two two"
-    "one one one one four four"
-    "twelve twelve twelve ten ten ten"
-    "twelve twelve twelve ten ten ten";
+    'thirteen thirteen thirteen thirteen seven seven'
+    'thirteen thirteen thirteen thirteen seven seven'
+    'eleven eleven eleven eleven seven seven'
+    'eleven eleven eleven eleven five five'
+    'three three eight eight five five'
+    'six six fourteen fourteen fourteen fourteen'
+    'fifteen fifteen fourteen fourteen fourteen fourteen'
+    'fifteen fifteen nine nine nine nine'
+    'sixteen sixteen nine nine nine nine'
+    'one one one one two two'
+    'one one one one four four'
+    'twelve twelve twelve ten ten ten'
+    'twelve twelve twelve ten ten ten';
   gap: 10px;
 }
 
@@ -1273,11 +1274,10 @@
 }
 
 @media (max-width: 520px) {
-
   .cover {
     max-height: 59vh;
     width: 100vw;
-  } 
+  }
 
   .header-language-list {
     font-size: 12px;
@@ -1351,7 +1351,6 @@
 }
 
 @media (max-width: 485px) {
-
   .cover-title-wrapper {
     left: 45px;
   }
